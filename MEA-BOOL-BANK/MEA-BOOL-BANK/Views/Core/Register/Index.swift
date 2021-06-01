@@ -6,7 +6,8 @@
 //
 
 import SwiftUI
-
+import Firebase
+import GoogleSignIn
 struct Index: View {
     @State var _phone:String
     @State var _endyear:String
@@ -16,13 +17,16 @@ struct Index: View {
     @State var _text_Field_visibility:Bool
     @State var _active:String = "WELCOM"
     @State var _error_message:String
+    @State var user = Auth.auth().currentUser
     var body: some View {
         
         VStack()
         {
             
             VStack{
-                Header()
+                if user != nil {
+                    Header()
+                }
                 Spacer()
                 Logo()
                 Spacer()

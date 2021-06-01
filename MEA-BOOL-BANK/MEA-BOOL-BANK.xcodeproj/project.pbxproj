@@ -3,13 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		721ABC3B25B36E9500AAAF40 /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721ABC3A25B36E9500AAAF40 /* Welcome.swift */; };
 		721ABC3F25B36FDB00AAAF40 /* PhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721ABC3E25B36FDB00AAAF40 /* PhoneNumber.swift */; };
 		7235630D2633FD44003EE27E /* MoreDeails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7235630C2633FD44003EE27E /* MoreDeails.swift */; };
+		7238FE44266013CC0048CF3D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7238FE43266013CC0048CF3D /* GoogleService-Info.plist */; };
 		723C6ACC25CC5D8B00559887 /* DataConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723C6ACB25CC5D8B00559887 /* DataConstants.swift */; };
 		7254FE7625CDBCEF00A41021 /* Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7254FE7525CDBCEF00A41021 /* Class.swift */; };
 		7254FE7925CDBE6600A41021 /* Name.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7254FE7825CDBE6600A41021 /* Name.swift */; };
@@ -35,12 +36,15 @@
 		72DF189025A247FB006AB8E6 /* cantora_one.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 72DF188E25A247FB006AB8E6 /* cantora_one.ttf */; };
 		72DF189725A24D47006AB8E6 /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DF189625A24D47006AB8E6 /* SignIn.swift */; };
 		72DF189A25A25036006AB8E6 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DF189925A25036006AB8E6 /* Constant.swift */; };
+		ABAF39D793BEBDAD9CE9A4E0 /* Pods_MEA_BOOL_BANK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE16B00B2A3355E5282822D8 /* Pods_MEA_BOOL_BANK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A59E41E29CF732572BD079B /* Pods-MEA-BOOL-BANK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEA-BOOL-BANK.debug.xcconfig"; path = "Target Support Files/Pods-MEA-BOOL-BANK/Pods-MEA-BOOL-BANK.debug.xcconfig"; sourceTree = "<group>"; };
 		721ABC3A25B36E9500AAAF40 /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
 		721ABC3E25B36FDB00AAAF40 /* PhoneNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumber.swift; sourceTree = "<group>"; };
 		7235630C2633FD44003EE27E /* MoreDeails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreDeails.swift; sourceTree = "<group>"; };
+		7238FE43266013CC0048CF3D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "Preview Content/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		723C6ACB25CC5D8B00559887 /* DataConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataConstants.swift; sourceTree = "<group>"; };
 		7254FE7525CDBCEF00A41021 /* Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Class.swift; sourceTree = "<group>"; };
 		7254FE7825CDBE6600A41021 /* Name.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Name.swift; sourceTree = "<group>"; };
@@ -68,6 +72,8 @@
 		72DF188E25A247FB006AB8E6 /* cantora_one.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = cantora_one.ttf; sourceTree = "<group>"; };
 		72DF189625A24D47006AB8E6 /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
 		72DF189925A25036006AB8E6 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		BD401316BBA1A392286E1E03 /* Pods-MEA-BOOL-BANK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MEA-BOOL-BANK.release.xcconfig"; path = "Target Support Files/Pods-MEA-BOOL-BANK/Pods-MEA-BOOL-BANK.release.xcconfig"; sourceTree = "<group>"; };
+		DE16B00B2A3355E5282822D8 /* Pods_MEA_BOOL_BANK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MEA_BOOL_BANK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,12 +81,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABAF39D793BEBDAD9CE9A4E0 /* Pods_MEA_BOOL_BANK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F767B18698716932AFC660E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE16B00B2A3355E5282822D8 /* Pods_MEA_BOOL_BANK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		721ABC3825B36E3F00AAAF40 /* Steps */ = {
 			isa = PBXGroup;
 			children = (
@@ -125,6 +140,8 @@
 			children = (
 				72801B5625A0E5D5001D70F2 /* MEA-BOOL-BANK */,
 				72801B5525A0E5D5001D70F2 /* Products */,
+				C58876CEB33A9F84776B8EE9 /* Pods */,
+				2F767B18698716932AFC660E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -146,6 +163,7 @@
 				72801B6725A0E6BF001D70F2 /* Views */,
 				72801B5725A0E5D5001D70F2 /* MEA_BOOL_BANKApp.swift */,
 				72801B5925A0E5D5001D70F2 /* ContentView.swift */,
+				7238FE43266013CC0048CF3D /* GoogleService-Info.plist */,
 				72801B5B25A0E5D7001D70F2 /* Assets.xcassets */,
 				72801B6025A0E5D7001D70F2 /* Info.plist */,
 				72801B5D25A0E5D7001D70F2 /* Preview Content */,
@@ -253,6 +271,15 @@
 			path = Font;
 			sourceTree = "<group>";
 		};
+		C58876CEB33A9F84776B8EE9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A59E41E29CF732572BD079B /* Pods-MEA-BOOL-BANK.debug.xcconfig */,
+				BD401316BBA1A392286E1E03 /* Pods-MEA-BOOL-BANK.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -260,17 +287,18 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 72801B6325A0E5D7001D70F2 /* Build configuration list for PBXNativeTarget "MEA-BOOL-BANK" */;
 			buildPhases = (
+				60AE1A1D5DCDD536471D9C3F /* [CP] Check Pods Manifest.lock */,
 				72801B5025A0E5D5001D70F2 /* Sources */,
 				72801B5125A0E5D5001D70F2 /* Frameworks */,
 				72801B5225A0E5D5001D70F2 /* Resources */,
+				2F0233B090591945B9CF297D /* [CP] Embed Pods Frameworks */,
+				2C33B01B5C42DACE954F9F29 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "MEA-BOOL-BANK";
-			packageProductDependencies = (
-			);
 			productName = "MEA-BOOL-BANK";
 			productReference = 72801B5425A0E5D5001D70F2 /* MEA-BOOL-BANK.app */;
 			productType = "com.apple.product-type.application";
@@ -298,8 +326,6 @@
 				Base,
 			);
 			mainGroup = 72801B4B25A0E5D5001D70F2;
-			packageReferences = (
-			);
 			productRefGroup = 72801B5525A0E5D5001D70F2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -314,6 +340,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7238FE44266013CC0048CF3D /* GoogleService-Info.plist in Resources */,
 				72DF189025A247FB006AB8E6 /* cantora_one.ttf in Resources */,
 				72DF188F25A247FB006AB8E6 /* baloo.ttf in Resources */,
 				72801B5F25A0E5D7001D70F2 /* Preview Assets.xcassets in Resources */,
@@ -322,6 +349,65 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C33B01B5C42DACE954F9F29 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MEA-BOOL-BANK/Pods-MEA-BOOL-BANK-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MEA-BOOL-BANK/Pods-MEA-BOOL-BANK-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MEA-BOOL-BANK/Pods-MEA-BOOL-BANK-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F0233B090591945B9CF297D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MEA-BOOL-BANK/Pods-MEA-BOOL-BANK-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MEA-BOOL-BANK/Pods-MEA-BOOL-BANK-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MEA-BOOL-BANK/Pods-MEA-BOOL-BANK-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60AE1A1D5DCDD536471D9C3F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MEA-BOOL-BANK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		72801B5025A0E5D5001D70F2 /* Sources */ = {
@@ -476,6 +562,7 @@
 		};
 		72801B6425A0E5D7001D70F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A59E41E29CF732572BD079B /* Pods-MEA-BOOL-BANK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -498,6 +585,7 @@
 		};
 		72801B6525A0E5D7001D70F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD401316BBA1A392286E1E03 /* Pods-MEA-BOOL-BANK.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

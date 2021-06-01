@@ -6,7 +6,8 @@
 //
 
 import SwiftUI
-
+import Firebase
+import GoogleSignIn
 struct SignIn: View {
     var body: some View {
         VStack()
@@ -18,9 +19,11 @@ struct SignIn: View {
             }
             
             VStack{
+               
                 Spacer()
                 VStack{
                     HStack(){
+                       
                         Text("Sign In")
                             .font(Font.custom(fontName.primary, size: CGFloat(fontSize.h1)))
                             .frame(maxWidth: .infinity, alignment: .leading)
@@ -38,7 +41,8 @@ struct SignIn: View {
                 }.padding()
                 VStack{
                     Button(action: {
-                        // action soon
+                        GIDSignIn.sharedInstance()?.presentingViewController = UIApplication.shared.windows.first?.rootViewController
+                        GIDSignIn.sharedInstance()?.signIn()
                     }, label: {
                         HStack{
                             Spacer()

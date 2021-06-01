@@ -6,18 +6,36 @@
 //
 
 import SwiftUI
-
+import Firebase
+import GoogleSignIn
 struct ContentView: View {
+    @State var user = Auth.auth().currentUser
     var body: some View {
+        
         NavigationView{
-         
-            Index(_phone: "", _endyear: "", _class: "", _name: "", _blood: "", _text_Field_visibility: false, _error_message:"")
+            if user != nil {
+        
+                Index(_phone: "", _endyear: "", _class: "", _name: "", _blood: "", _text_Field_visibility: false, _error_message:"")
                 .navigationBarTitle("")
                 .navigationBarHidden(true)
-            
+            }
+            else {
+              SignIn()
+            }
         }
-//        Welcome()
-//        SignIn()
+        .onAppear {
+            
+            NotificationCenter.default.addObserver(forName: NSNotification.Name("SIGNIN"), object: nil, queue: .main) { (_) in
+
+                self.user = Auth.auth().currentUser
+            }
+            NotificationCenter.default.addObserver(forName: NSNotification.Name("SIGNOUT"), object: nil, queue: .main) { (_) in
+
+                self.user = nil
+            }
+        }
+    
+      
 //       Splash()
        
     }
